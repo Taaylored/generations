@@ -1,0 +1,165 @@
+/*  Imports*/
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:800|Roboto:400,700,900';
+
+body {
+  display: flex;
+  flex-direction: column;
+
+/*   background: #e6e6e6; */
+}
+
+.logo {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.navigation {
+  display: flex;
+  max-width: 800px;
+  justify-content: left;
+  background-color: #FCFAF9;
+  color: black;
+  font-size: 1.5em;
+  list-style: none;
+   padding: 10px 50px;
+   margin: 0 auto;
+   box-shadow: 0px 0px 2px 0px rgba(42, 44, 43, 0.1);
+}
+
+.navigation li {
+  padding: 0px 25px;
+  color: #84828F;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.navigation li:hover {
+  background: #684B7F;
+ color: white;
+}
+
+.grid {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+#card {
+  display: flex;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  background-color: #684B7F;
+  box-shadow: 0px 0px 15px 0px rgba(42, 44, 43, 0.3);
+  flex: auto;
+   justify-content: center;
+  align-items: center;
+}
+
+#card p {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: white;
+  font-size: 2.5em;
+  padding: 15px;
+}
+
+
+#daily {
+  display: flex;
+  width: 750px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: #FCFAF9;
+  box-shadow: 0px 0px 2px 0px rgba(42, 44, 43, 0.2);
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+#follow {
+  display: flex;
+  height: 150px;
+  margin: 25px 7px;
+  flex: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#follow p {
+  font-size: 1.5em;
+  text-align: center;
+  
+}
+
+#follow svg {
+  display: flex;
+  margin: 1em;
+  fill: #684B7F;
+  height: 55px;
+  width: 55px;
+  
+}
+
+
+/* Styles */
+#daily P {
+  color: #84828F;
+  font-size: 2em;
+  line-height: 150%;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+#follow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #84828F;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+ul {
+  
+  list-style: none;
+}
+
+nav a {
+  
+  text-decoration: none;
+}
+
+
+
+#follow svg:hover {
+  fill: #84828F;
+}
+
+#card:hover {
+ 
+  background: #84828F;
+}
+
+@media (max-width: 800px) { 
+  #follow p {
+    display: none;
+  }
+  
+  .logo{
+  max-width: none;
+  width: 80%;
+  }
+}
