@@ -194,7 +194,15 @@ nav a {
   text-decoration: none;
 }
 
+#card a {
+    text-decoration: none;
+    
+}
 
+span {
+  font-weight: bold;
+  color: #684B7F;
+}
 
 #follow svg:hover {
   fill: #84828F;
