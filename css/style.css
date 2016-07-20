@@ -157,6 +157,46 @@ body {
 }
 
 
+
+/* Start Contact Form */
+
+label, 
+input,
+textarea {
+  display: block;
+  margin: 1em;
+  color: #684B7F;
+  
+}
+
+input[type="email"] {
+  border: 0;
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+
+}
+
+input[type="text"] {
+  border: 0;
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+}
+
+:focus {
+  background: lightgray;
+  outline: 0;
+  transition: background .25s;
+}
+
+input[type="submit"] {
+  
+  background: none;
+}
+
+/* End Contact Form */
+
 /* Styles */
 #daily P {
   color: #84828F;
