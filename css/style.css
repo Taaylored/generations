@@ -9,10 +9,18 @@ body {
 /*   background: #e6e6e6; */
 }
 
+
+@keyframes slideUp {
+  from { transform: translateY( 1000px) }
+  to { transform: translateX(0) }
+}
+
+
 .logo {
   max-width: 800px;
   margin: 0 auto;
   padding-top: 50px;
+  
 }
 
 .navigation {
@@ -26,6 +34,8 @@ body {
    padding: 10px 50px;
    margin: 0 auto;
    box-shadow: 0px 0px 2px 0px rgba(42, 44, 43, 0.1);
+    
+    
 }
 
 .navigation li {
@@ -47,6 +57,8 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   align-content: flex-start;
+    
+    animation: slideUp 1s;
 }
 
 #card {
