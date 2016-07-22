@@ -136,7 +136,7 @@ justify-content: space-between;
 
 .team {
   display: flex;
-  width: 275px;
+  width: 280px;
   height: 200px;
   margin: 10px;
   background-color: #684B7F;
@@ -188,13 +188,10 @@ justify-content: space-between;
     display: flex;
     width: 100%;
   margin: 0 auto;
-  background-color: #FCFAF9;
-  box-shadow: 0px 0px 2px 0px rgba(42, 44, 43, 0.2);
   flex: auto;
-  padding: 2%;
     flex-flow: row wrap;
     justify-content: center;
-    align-content: flex-start;
+    align-content: center;
     
 }
 
@@ -491,13 +488,9 @@ p {
   
 .navigation {
   display: block;
-        margin: 15px auto;
+       
     }
-    
-    nav ul {
-        justify-content: center;
-        align-items: center;
-    }
+
     
   .logo {
   max-width: none;
