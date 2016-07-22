@@ -136,7 +136,7 @@ justify-content: space-between;
 
 .team {
   display: flex;
-  width: 250px;
+  width: 275px;
   height: 200px;
   margin: 10px;
   background-color: #684B7F;
@@ -455,6 +455,7 @@ a {
 
 #big {
   
+    padding-top: 0px;
     font-size: 4em;
   font-weight: bold;
   color: #684B7F;
