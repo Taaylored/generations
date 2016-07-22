@@ -29,7 +29,7 @@ body {
   justify-content: left;
   background-color: #FCFAF9;
   color: black;
-  font-size: 1.5em;
+  font-size: 1.3em;
   list-style: none;
    padding: 10px 50px;
    margin: 0 auto;
@@ -39,7 +39,7 @@ body {
 }
 
 .navigation li {
-  padding: 0px 25px;
+  padding: 0px 15px;
     margin: 0 10px;
  border: 1px solid lightgray;
     border-radius: 15px;
@@ -309,18 +309,21 @@ input[type="submit"]:hover {
   color: #84828F;
   font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
+    line-height: 150%;
 }
 
 #aboutgenerations P {
   color: #84828F;
   font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
+    line-height: 150%;
 }
 
-#aboutgenerations2 P {
+#aboutgenerations2 P, li {
   color: #84828F;
   font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
+    line-height: 150%;
 }
 
 #follow {
@@ -338,13 +341,18 @@ ul {
   list-style: none;
 }
 
+li {
+    margin: 15px 0;
+}
+
 nav a {
   
   text-decoration: none;
 }
 
- a {
+a {
     text-decoration: none;
+    color: #684B7F;
     
 }
 
@@ -360,24 +368,26 @@ nav a {
 
 #big {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    align-items: left;
     font-size: 4em;
-    padding: 0px 10px;
-    margin: 0 auto;
   font-weight: bold;
   color: #684B7F;
+    padding-top: 0px;
 }
 
-span {
-    display: flex;
-    flex-direction: row;
-    font-size: em;
-        padding: 0px 10px;
+h1 {
+    padding-top: 30px;
+    font-size: 2em;
     margin: 0 auto;
   font-weight: bold;
   color: #84828F;
 }
 
+p {
+    padding: none;
+    margin: 10px auto;
+}
 .follow:hover {
   fill: #84828F;
 }
