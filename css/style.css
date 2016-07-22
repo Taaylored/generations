@@ -23,6 +23,7 @@ body {
   
 }
 
+
 .navigation {
   display: flex;
   max-width: 800px;
@@ -41,6 +42,8 @@ body {
 nav ul {
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: left;
 }
 
 .navigation li {
@@ -52,8 +55,6 @@ nav ul {
   background: white;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    justify-content: center;
-    align-items: center;
 
   
 }
@@ -482,14 +483,19 @@ p {
 
 
 
-@media (max-width: 800px) { 
+@media (max-width: 600px) { 
     #big {
         display: block;
     }
   
-    .navigation {
+.navigation {
   display: block;
         margin: 15px auto;
+    }
+    
+    nav ul {
+        justify-content: center;
+        align-items: center;
     }
     
   .logo {
