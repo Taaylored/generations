@@ -52,6 +52,9 @@ nav ul {
   background: white;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+        flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
   
 }
 
