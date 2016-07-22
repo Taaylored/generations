@@ -161,6 +161,19 @@ justify-content: space-between;
   
 }
 
+#aboutgenerations2 {
+    
+    width: 750px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: #FCFAF9;
+  box-shadow: 0px 0px 2px 0px rgba(42, 44, 43, 0.2);
+  flex: auto;
+  padding: 2.5%;
+}
+
 
 #title {
   font-weight: bold;
@@ -183,12 +196,7 @@ justify-content: space-between;
   justify-content: center;
 }
 
-.radio {
-    display: flex;
-    height: 100px;
-    width: 100px;
-  
-}
+
 
 .follow {
   display: flex;
@@ -309,6 +317,12 @@ input[type="submit"]:hover {
   font-family: 'Roboto', sans-serif;
 }
 
+#aboutgenerations2 P {
+  color: #84828F;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+
 #follow {
   display: flex;
   justify-content: center;
@@ -339,9 +353,29 @@ nav a {
   color: #684B7F;
 }
 
-span {
+#bigidea {
+
+    padding:  0px 50px;
+}
+
+#big {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    padding: 0px 10px;
+    margin: 0 auto;
   font-weight: bold;
   color: #684B7F;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    font-size: em;
+        padding: 0px 10px;
+    margin: 0 auto;
+  font-weight: bold;
+  color: #84828F;
 }
 
 .follow:hover {
