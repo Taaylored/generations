@@ -60,7 +60,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   flex-flow: row wrap;
-justify-content: space-between;
+justify-content: center;
   align-content: center;
     
     animation: slideUp 1s;
