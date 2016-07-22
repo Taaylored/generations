@@ -94,10 +94,11 @@ justify-content: space-between;
   right: 0;
   bottom: 0;
   left: 0;
-
+    padding: 0;
+    margin: 0;
   display: flex;
   text-align: center;
-        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
     justify-content: center;
   align-items: center;
     
@@ -105,9 +106,16 @@ justify-content: space-between;
   font-weight: 800;
   color: white;
   font-size: 2.5em;
-    
+     background: rgba(0, 0, 0, 0.3);
 
 }
+
+.info:hover {
+
+   background: rgba(0, 0, 0, 0.0);
+
+}
+
 
 #card img {
     
@@ -245,8 +253,8 @@ textarea {
 
 label {
     padding: 1%;
-    color: black;
-border-left: 10px solid lightgray;
+    color: #84828F;
+border-left: 10px solid #684B7F;
     border-radius: 15px;
     font-family: 'Roboto', sans-serif;
     width: 100%;
@@ -257,7 +265,7 @@ input[type="email"] {
   padding: .5em;
    width: 50%;
 
-border: 1px solid lightgray;
+border: 1px solid #84828F;
      border-radius: 10px;
 
 }
@@ -265,13 +273,13 @@ border: 1px solid lightgray;
 input[type="text"] {
   border: 0;
   padding: .5em;
-border: 1px solid lightgray;
+border: 1px solid #84828F;
      border-radius: 10px;
      width: 50%;
 }
 
 textarea {
- border: 1px solid lightgray;
+ border: 1px solid #84828F;
      border-radius: 10px;
      width: 100%;
 }
@@ -387,11 +395,7 @@ p {
   fill: #84828F;
 }
 
-.info:hover {
 
-   background: rgba(0, 0, 0, 0.3);
-
-}
 
 @media (max-width: 800px) { 
     #big {
