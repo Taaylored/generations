@@ -39,8 +39,8 @@ body {
 }
 
 nav ul {
-    padding: none;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
 }
 
 .navigation li {
@@ -334,18 +334,9 @@ input[type="submit"]:hover {
   
 }
 
-ul {
-  
-  list-style: none;
-}
 
 li {
     margin: 15px 0;
-}
-
-nav a {
-  
-  text-decoration: none;
 }
 
 a {
@@ -373,7 +364,7 @@ a {
     font-size: 4em;
   font-weight: bold;
   color: #684B7F;
-    padding-top: 0px;
+    
 }
 
 h1 {
@@ -409,6 +400,6 @@ p {
   
   .logo {
   max-width: none;
-  width: 80%;
+  width: 85%;
   }
 }
