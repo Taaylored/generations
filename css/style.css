@@ -61,7 +61,7 @@ body {
   margin: 0 auto;
   flex-flow: row wrap;
 justify-content: space-between;
-  align-content: flex-start;
+  align-content: center;
     
     animation: slideUp 1s;
 }
@@ -78,6 +78,7 @@ justify-content: space-between;
   flex: auto;
 
   align-items: center;
+    justify-content: center
     
 
 }
