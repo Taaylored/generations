@@ -40,8 +40,8 @@ body {
 
 .navigation li {
   padding: 0px 25px;
+    margin: 0 10px;
  border: 1px solid lightgray;
-   margin: 0 10px;
     border-radius: 15px;
     color: #684B7F;
   background: white;
@@ -60,7 +60,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   flex-flow: row wrap;
-justify-content: center;
+justify-content: space-between;
   align-content: center;
     
     animation: slideUp 1s;
@@ -68,9 +68,7 @@ justify-content: center;
 
 #card {
     position: relative;
-  height: 225px;
-  width: 280px;
-
+  height: 175px;
   margin-top: 10px;
     margin-bottom: 10px;;
   background-color: #684B7F;
