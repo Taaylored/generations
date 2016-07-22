@@ -367,9 +367,6 @@ a {
 }
 
 #big {
-    display: flex;
-    justify-content: left;
-    align-items: left;
     font-size: 4em;
   font-weight: bold;
   color: #684B7F;
