@@ -128,6 +128,73 @@ justify-content: space-between;
 
 }
 
+/* Start About Us Team Card*/
+
+.team {
+  display: flex;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  background-color: #684B7F;
+  box-shadow: 0px 0px 15px 0px rgba(42, 44, 43, 0.3);
+  flex: auto;
+   justify-content: center;
+  align-items: center;
+    
+}
+
+.team img {
+        object-fit: cover;
+       -o-object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.name {
+     position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+    padding: 0;
+    margin: 0;
+  display: flex;
+  text-align: center;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+  align-items: center;
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: white;
+  font-size: 2.5em;
+     background: rgba(0, 0, 0, 0.1);
+    
+}
+
+.name:hover {
+    
+    
+    background: rgba(0, 0, 0, 0.0);
+
+}
+
+#meetus {
+    display: flex;
+    width: 750px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: #FCFAF9;
+  box-shadow: 0px 0px 2px 0px rgba(42, 44, 43, 0.2);
+  flex: auto;
+  padding: 2%;
+    
+}
+
+/* End About Us Team Cards*/
+
 
 #daily {
   display: flex;
@@ -145,8 +212,7 @@ justify-content: space-between;
   
 }
 
-#aboutus {
-  display: flex;
+#ken {
   width: 750px;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -155,7 +221,33 @@ justify-content: space-between;
   background-color: #FCFAF9;
   box-shadow: 0px 0px 2px 0px rgba(42, 44, 43, 0.2);
   flex: auto;
-  padding: 2.5%;
+  padding: 2%;
+  
+}
+
+#taylor {
+  width: 750px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: #FCFAF9;
+  box-shadow: 0px 0px 2px 0px rgba(42, 44, 43, 0.2);
+  flex: auto;
+  padding: 2%;
+  
+}
+
+#kaitlyn {
+  width: 750px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: #FCFAF9;
+  box-shadow: 0px 0px 2px 0px rgba(42, 44, 43, 0.2);
+  flex: auto;
+  padding: 2%;
   
 }
 
@@ -186,17 +278,6 @@ justify-content: space-between;
   padding: 2.5%;
 }
 
-
-#title {
-  font-weight: bold;
-  color: #684B7F;
-  line-height: 30px;
-}
-
-#ken {
-  display: block;
-  padding-bottom: 2%;
-}
 
 
 #follow {
@@ -317,7 +398,7 @@ input[type="submit"]:hover {
   font-family: 'Roboto', sans-serif;
 }
 
-#aboutus p {
+ p {
   color: #84828F;
   font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
@@ -404,6 +485,6 @@ p {
   
   .logo {
   max-width: none;
-  width: 85%;
+  width: 90%;
   }
 }
