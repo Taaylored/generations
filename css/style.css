@@ -403,9 +403,11 @@ p {
 }
 
 @media (max-width: 800px) { 
-
+    #big {
+        display: block;
+    }
   
-  .logo{
+  .logo {
   max-width: none;
   width: 80%;
   }
