@@ -38,6 +38,11 @@ body {
     
 }
 
+nav ul {
+    padding: none;
+    margin: 0 auto;
+}
+
 .navigation li {
   padding: 0px 15px;
     margin: 0 10px;
@@ -148,7 +153,6 @@ justify-content: space-between;
 
 
 #aboutgenerations {
-  display: flex;
   width: 750px;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -157,7 +161,7 @@ justify-content: space-between;
   background-color: #FCFAF9;
   box-shadow: 0px 0px 2px 0px rgba(42, 44, 43, 0.2);
   flex: auto;
-  padding: 2.5%;
+  padding: 2%;
   
 }
 
@@ -312,12 +316,6 @@ input[type="submit"]:hover {
     line-height: 150%;
 }
 
-#aboutgenerations P {
-  color: #84828F;
-  font-size: 1.2em;
-  font-family: 'Roboto', sans-serif;
-    line-height: 150%;
-}
 
 #aboutgenerations2 P, li {
   color: #84828F;
@@ -362,11 +360,16 @@ a {
 }
 
 #bigidea {
-
-    padding:  0px 50px;
+    display: block;
+  color: #84828F;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+    padding:  0% 5%;
 }
 
 #big {
+  
     font-size: 4em;
   font-weight: bold;
   color: #684B7F;
