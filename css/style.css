@@ -46,7 +46,7 @@ nav ul {
 
 .navigation li {
     display: flex;
- 
+  padding: 0px 15px;
     margin: 0 10px;
  border: 1px solid lightgray;
     border-radius: 15px;
@@ -54,6 +54,8 @@ nav ul {
   background: white;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    justify-content: center;
+    align-items: center;
 
   
 }
