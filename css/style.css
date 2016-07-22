@@ -41,13 +41,11 @@ body {
 nav ul {
     padding: 0;
     margin: 0;
-    display: flex;
 }
 
 .navigation li {
-    display: flex;
   padding: 0px 15px;
-    margin: 0 10px;
+    margin: 0 15px;
  border: 1px solid lightgray;
     border-radius: 15px;
     color: #684B7F;
@@ -489,6 +487,11 @@ p {
         display: block;
     }
   
+    .navigation {
+  display: block;
+        margin: 15px auto;
+    }
+    
   .logo {
   max-width: none;
   width: 90%;
