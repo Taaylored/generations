@@ -372,7 +372,7 @@ label {
 border-left: 10px solid #684B7F;
     border-radius: 15px;
     font-family: 'Roboto', sans-serif;
-    width: 60%;
+    width: 90%;
     text-align: left;
 }
 
@@ -413,7 +413,7 @@ border: 1px solid #84828F;
 textarea {
  border: 1px solid #84828F;
      border-radius: 10px;
-     width: 60%;
+     width: 80%;
 }
 
 
@@ -551,6 +551,8 @@ p {
   
 .navigation {
   display: block;
+    text-align: center;
+    margin: 10px 0px;
        
     }
 
