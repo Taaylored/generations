@@ -316,7 +316,6 @@ justify-content: space-between;
 #follow {
   display: flex;
   height: 150px;
-  margin: 25px 7px;
   flex: auto;
   align-items: center;
   justify-content: center;
