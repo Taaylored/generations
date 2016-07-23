@@ -591,7 +591,9 @@ p {
     
 label, 
 input,
-textarea {
+textarea,
+submit {
     width: 95%;
+    margin: 0;
 }
 }
