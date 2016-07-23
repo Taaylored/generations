@@ -316,6 +316,7 @@ justify-content: space-between;
 #follow {
   display: flex;
   height: 150px;
+  margin: 25px 7px;
   flex: auto;
   align-items: center;
   justify-content: center;
@@ -560,15 +561,12 @@ p {
     }
   
 .navigation {
+    display: block;
     text-align: center;
-    margin: 10px 0px;
+    margin: 5px 0px;
     width: 100%;
-    border: none;
     
        
-    }
-    .navigation ul {
-        display: inline;
     }
 
 .navigation li {
