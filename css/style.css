@@ -561,12 +561,9 @@ p {
     }
   
 .navigation {
-  display: inline;
+  display: block;
     text-align: center;
     margin: 10px 0px;
-    width: 100%;
-    border: none;
-    
        
     }
 
