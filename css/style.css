@@ -588,6 +588,9 @@ p {
         
         100%
     }
+    label {
+        margin-bottom: 0em;
+    }    
     
 label, 
 input,
