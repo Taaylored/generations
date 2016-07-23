@@ -367,19 +367,19 @@ textarea {
 
 label {
     
-    padding: 1%;
+    padding: 1.5%;
     color: #84828F;
 border-left: 10px solid #684B7F;
     border-radius: 15px;
     font-family: 'Roboto', sans-serif;
-    width: 90%;
+    width: 80%;
     text-align: left;
 }
 
 input[type="email"] {
   border: 0;
   padding: .5em;
-   width: 50%;
+   width: 75%;
 
 border: 1px solid #84828F;
      border-radius: 10px;
@@ -391,7 +391,7 @@ input[type="text"] {
   padding: .5em;
 border: 1px solid #84828F;
      border-radius: 10px;
-     width: 50%;
+     width: 75%;
 }
 
 input[type="date"] {
@@ -399,7 +399,7 @@ input[type="date"] {
   padding: .5em;
 border: 1px solid #84828F;
      border-radius: 10px;
-     width: 50%;
+     width: 75%;
 }
 
 input[type="age"] {
@@ -407,7 +407,7 @@ input[type="age"] {
   padding: .5em;
 border: 1px solid #84828F;
      border-radius: 10px;
-     width: 50%;
+     width: 75%;
 }
 
 textarea {
@@ -556,6 +556,13 @@ p {
        
     }
 
+.navigation li {
+
+    margin: 10px 15px;
+
+
+  
+}
     
   .logo {
   max-width: none;
