@@ -444,8 +444,9 @@ input[type="submit"]:hover {
 form {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: center;
+    width: 75%;
+}
+    
 }
 /* End Contact Form */
 
