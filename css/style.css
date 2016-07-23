@@ -583,6 +583,12 @@ p {
 
 
 @media (max-width: 450px) { 
+    
+    form {
+        
+        100%
+    }
+    
 label, 
 input,
 textarea {
