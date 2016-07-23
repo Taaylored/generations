@@ -580,3 +580,12 @@ p {
   width: 90%;
   }
 }
+
+
+@media (max-width: 450px) { 
+label, 
+input,
+textarea {
+    width: 95%;
+}
+}
