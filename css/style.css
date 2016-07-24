@@ -40,6 +40,7 @@ body {
 }
 
 nav ul {
+    
     padding: 0;
     margin: 0;
     display: flex;
@@ -55,6 +56,7 @@ nav ul {
   background: white;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    font-size: .9em;
 
   
 }
@@ -141,13 +143,13 @@ justify-content: space-between;
   font-weight: 800;
   color: white;
   font-size: 2.5em;
-     background: rgba(0, 0, 0, 0.3);
+     background: rgba(0, 0, 0, 0.0);
 
 }
 
 .info:hover {
 
-   background: rgba(0, 0, 0, 0.0);
+   background: rgba(0, 0, 0, 0.3);
 
 }
 
@@ -536,7 +538,7 @@ a {
 }
 
 h1 {
-    padding-top: 30px;
+    
     font-size: 2em;
     margin: 0 auto;
   font-weight: bold;
@@ -544,7 +546,7 @@ h1 {
 }
 
 p {
-    padding: none;
+    padding-bottom: 30px;
     margin: 10px auto;
 }
 .follow:hover {
